@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SPIRE_HOME="${SPIRE_HOME:-$HOME/labs/spire}"
+SPIRE_HOME="${SPIRE_HOME:-/opt/spire}"
 TRUST_DOMAIN="${TRUST_DOMAIN:-example.org}"
 
 mkdir -p \
